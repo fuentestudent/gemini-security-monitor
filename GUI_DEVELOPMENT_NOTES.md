@@ -14,7 +14,8 @@ La GUI está siendo desarrollada en **Python utilizando la librería `tkinter`**
 *   **Pestañas Implementadas:**
     *   **Estado General:** Muestra el estado de los servicios de seguridad monitoreados (Cloudflare Warp, Microsoft Defender Antivirus, Firewall de Windows Defender, CrowdSec) y permite ejecutar el script maestro de monitoreo (`start_security_monitors.ps1`).
     *   **Logs de Seguridad:** Permite visualizar el contenido de los archivos de registro clave (`service_monitor_log.txt`, `explorer_window_log.txt`, `integrity_check_log.txt`, `event_logs_integrity.log`) con la opción de actualizar su contenido.
-    *   **Integridad de C:\www:** Ofrece botones para calcular los hashes de los archivos en `C:\www` (establecer línea base) y para verificar la integridad del directorio, mostrando los resultados en tiempo real.
+    *   **Integridad de C:\www:** Ofrece botones para calcular los hashes de los archivos en `C:\www\gemini-security-monitor` (establecer línea base) y para verificar la integridad del directorio, mostrando los resultados en tiempo real.
+    *   **Seguridad de Puertos:** Permite ejecutar escaneos de puertos y conexiones, mostrando los resultados en tiempo real y registrándolos para análisis.
     *   **Configuración/Acerca de:** Muestra el contenido del documento `GEMINI_SECURITY_OVERVIEW.md`, proporcionando un resumen de las responsabilidades y mecanismos de seguridad.
 
 ## 3. Recursos y Herramientas Integrados
@@ -26,7 +27,8 @@ La GUI se integra con y aprovecha los siguientes recursos y herramientas:
     *   Monitoreo y reinicio de servicios críticos.
     *   Identificación de la entidad que detiene servicios.
     *   Monitoreo de cambios en ventanas del Explorador de Archivos y registro de procesos.
-    *   Cálculo y verificación de hashes para la integridad de `C:\www`.
+    *   Cálculo y verificación de hashes para la integridad de `C:\www\gemini-security-monitor`.
+    *   Escaneo y análisis de puertos y conexiones.
     *   Respaldo y verificación de integridad de logs de eventos de Windows.
 *   **Git:** Utilizado para el control de versiones del código fuente de la GUI y los scripts de seguridad, facilitando la colaboración y el seguimiento de cambios. El protocolo de uso se detalla en `GIT_PROTOCOL.md`.
 *   **Visual Studio Code:** Entorno de desarrollo recomendado para la edición y depuración del código.
@@ -38,7 +40,7 @@ Se han identificado varias oportunidades para enriquecer la GUI y el sistema de 
 *   **Supabase (Opciones Gratuitas):**
     *   **Almacenamiento Remoto de Logs:** Enviar los logs generados por los scripts a una base de datos PostgreSQL en Supabase para un análisis centralizado, persistencia de datos (incluso si los logs locales son eliminados) y acceso remoto.
     *   **Almacenamiento Seguro de Configuraciones:** Guardar configuraciones sensibles o reglas personalizadas de forma remota.
-    *   **Verificación de Integridad en la Nube:** Almacenar los hashes de integridad de `C:\www` en Supabase para una verificación más robusta y a prueba de manipulaciones locales.
+    *   **Verificación de Integridad en la Nube:** Almacenar los hashes de integridad de `C:\www\gemini-security-monitor` en Supabase para una verificación más robusta y a prueba de manipulaciones locales.
     *   **Autenticación:** Si se considera un acceso multiusuario o remoto a la GUI.
 *   **Google Cloud Platform (GCP - Nivel Gratuito):**
     *   **Cloud Storage:** Utilizar para copias de seguridad redundantes y seguras de logs o hashes.
