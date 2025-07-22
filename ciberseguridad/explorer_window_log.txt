@@ -1,0 +1,1 @@
+2025-07-22 02:06:10.541614 - NUEVA VENTANA: Ventana 'Inicio - Explorador de archivos' (PID: 458932) - Tamaño/Posición: (Left: -32000, Top: -32000, Width: 160, Height: 28)
