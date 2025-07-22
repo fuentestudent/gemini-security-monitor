@@ -17,6 +17,7 @@ La GUI está siendo desarrollada en **Python utilizando la librería `tkinter`**
     *   **Integridad de C:\www:** Ofrece botones para calcular los hashes de los archivos en `C:\www\gemini-security-monitor` (establecer línea base) y para verificar la integridad del directorio, mostrando los resultados en tiempo real.
     *   **Seguridad de Puertos:** Permite ejecutar escaneos de puertos y conexiones, mostrando los resultados en tiempo real y registrándolos para análisis.
     *   **Gestión de Usuarios y Privilegios:** Permite listar usuarios locales, grupos y sus miembros, así como los permisos NTFS de directorios críticos.
+    *   **Restauración del Sistema:** Permite crear puntos de restauración del sistema antes de realizar cambios críticos.
     *   **Configuración/Acerca de:** Muestra el contenido del documento `GEMINI_SECURITY_OVERVIEW.md`, proporcionando un resumen de las responsabilidades y mecanismos de seguridad.
 
 ## 3. Recursos y Herramientas Integrados
@@ -31,6 +32,7 @@ La GUI se integra con y aprovecha los siguientes recursos y herramientas:
     *   Cálculo y verificación de hashes para la integridad de `C:\www\gemini-security-monitor`.
     *   Escaneo y análisis de puertos y conexiones.
     *   Listado de usuarios y privilegios.
+    *   Creación de puntos de restauración del sistema.
     *   Respaldo y verificación de integridad de logs de eventos de Windows.
 *   **Git:** Utilizado para el control de versiones del código fuente de la GUI y los scripts de seguridad, facilitando la colaboración y el seguimiento de cambios. El protocolo de uso se detalla en `GIT_PROTOCOL.md`.
 *   **Visual Studio Code:** Entorno de desarrollo recomendado para la edición y depuración del código.
