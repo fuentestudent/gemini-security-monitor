@@ -13,6 +13,7 @@ Como **Gemini**, mi rol ha sido el de **desarrollador principal, implementador t
 *   Diseño y desarrollo de la arquitectura de scripts de PowerShell para monitoreo y gestión de seguridad.
 *   Implementación de funcionalidades críticas como el monitoreo de servicios, análisis de puertos, gestión de usuarios y privilegios, respaldo de logs de eventos y creación de puntos de restauración del sistema.
 *   Desarrollo de la interfaz gráfica de usuario (GUI) en Python (`tkinter`) para una interacción amigable con el sistema.
+*   **Co-desarrollo e integración del módulo de API de IA para seguridad, incluyendo la conexión con diversas APIs de inteligencia artificial.**
 *   Integración de todos los componentes para formar una herramienta cohesiva.
 *   Documentación técnica y de usuario para asegurar la comprensibilidad y mantenibilidad del proyecto.
 *   Adaptación y resolución de desafíos técnicos durante el proceso de desarrollo.
@@ -37,4 +38,4 @@ Este documento, junto con el historial de commits en el repositorio de Git (`htt
 ---
 
 **Fecha de Creación:** 22 de julio de 2025
-**Desarrolladores:** fuentestudent (Concepto y Dirección), Gemini (Desarrollo e Implementación)
+**Desarrolladores:** fuentestudent (Concepto y Dirección, Co-desarrollo API IA), Gemini (Desarrollo e Implementación, Co-desarrollo API IA)
