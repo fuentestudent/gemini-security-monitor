@@ -1,0 +1,159 @@
+
+Conexiones activas
+
+  Proto  Dirección local          Dirección remota        Estado           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1016
+  RpcEptMapper
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+ No se puede obtener información de propiedad
+  TCP    0.0.0.0:2179           0.0.0.0:0              LISTENING       1656
+ [vmms.exe]
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       3900
+  CDPSvc
+ [svchost.exe]
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       800
+ [lsass.exe]
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       656
+ No se puede obtener información de propiedad
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1368
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       2120
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       1156
+ [spoolsv.exe]
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       776
+ No se puede obtener información de propiedad
+  TCP    127.0.0.1:6060         0.0.0.0:0              LISTENING       3960
+ [crowdsec.exe]
+  TCP    127.0.0.1:8080         0.0.0.0:0              LISTENING       3960
+ [crowdsec.exe]
+  TCP    127.0.0.1:8080         127.0.0.1:50635        ESTABLISHED     3960
+ [crowdsec.exe]
+  TCP    127.0.0.1:8080         127.0.0.1:50638        ESTABLISHED     3960
+ [crowdsec.exe]
+  TCP    127.0.0.1:40000        0.0.0.0:0              LISTENING       2284
+ [warp-svc.exe]
+  TCP    127.0.0.1:50635        127.0.0.1:8080         ESTABLISHED     4072
+ [cs-windows-firewall-bouncer.exe]
+  TCP    127.0.0.1:50638        127.0.0.1:8080         ESTABLISHED     3960
+ [crowdsec.exe]
+  TCP    172.23.96.1:139        0.0.0.0:0              LISTENING       4
+ No se puede obtener información de propiedad
+  TCP    192.168.1.2:139        0.0.0.0:0              LISTENING       4
+ No se puede obtener información de propiedad
+  TCP    192.168.1.2:50595      172.183.7.192:443      ESTABLISHED     3188
+  WpnService
+ [svchost.exe]
+  TCP    192.168.1.2:50622      172.183.7.192:443      ESTABLISHED     3188
+  WpnService
+ [svchost.exe]
+  TCP    192.168.1.2:50844      1.0.0.1:443            ESTABLISHED     1800
+  Dnscache
+ [svchost.exe]
+  TCP    192.168.1.2:50870      162.159.192.1:443      ESTABLISHED     2284
+ [warp-svc.exe]
+  TCP    192.168.1.2:50872      216.239.38.223:443     TIME_WAIT       0
+  TCP    192.168.1.2:50873      192.178.50.74:443      ESTABLISHED     2756
+ [node.exe]
+  TCP    192.168.1.2:50874      216.239.38.223:443     ESTABLISHED     2756
+ [node.exe]
+  TCP    [::]:135               [::]:0                 LISTENING       1016
+  RpcEptMapper
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING       4
+ No se puede obtener información de propiedad
+  TCP    [::]:2179              [::]:0                 LISTENING       1656
+ [vmms.exe]
+  TCP    [::]:49664             [::]:0                 LISTENING       800
+ [lsass.exe]
+  TCP    [::]:49665             [::]:0                 LISTENING       656
+ No se puede obtener información de propiedad
+  TCP    [::]:49666             [::]:0                 LISTENING       1368
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING       2120
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING       1156
+ [spoolsv.exe]
+  TCP    [::]:49669             [::]:0                 LISTENING       776
+ No se puede obtener información de propiedad
+  UDP    0.0.0.0:53             *:*                                    2368
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                                    3136
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                                    3136
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5050           *:*                                    3900
+  CDPSvc
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                                    1800
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                                    1800
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:50508          *:*                                    2368
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:50509          *:*                                    2368
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:50587          162.159.198.2:443                      2284
+ [warp-svc.exe]
+  UDP    127.0.0.1:1900         *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:49664        127.0.0.1:49664                        2696
+  iphlpsvc
+ [svchost.exe]
+  UDP    127.0.0.1:50500        *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    172.23.96.1:67         *:*                                    2368
+  SharedAccess
+ [svchost.exe]
+  UDP    172.23.96.1:68         *:*                                    2368
+  SharedAccess
+ [svchost.exe]
+  UDP    172.23.96.1:137        *:*                                    4
+ No se puede obtener información de propiedad
+  UDP    172.23.96.1:138        *:*                                    4
+ No se puede obtener información de propiedad
+  UDP    172.23.96.1:1900       *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    172.23.96.1:50498      *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.2:137        *:*                                    4
+ No se puede obtener información de propiedad
+  UDP    192.168.1.2:138        *:*                                    4
+ No se puede obtener información de propiedad
+  UDP    192.168.1.2:1900       *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.2:50499      *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:500               *:*                                    3136
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:4500              *:*                                    3136
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:50510             *:*                                    2368
+  SharedAccess
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                                    1436
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:50497            *:*                                    1436
+  SSDPSRV
+ [svchost.exe]

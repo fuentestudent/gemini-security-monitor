@@ -1,0 +1,190 @@
+[
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\GIT_PROTOCOL.md",
+    "Hash": "CA3D2B26F4634FC73DFB5DACEB11210F56B88D384CDCCB6AC83B70DFB6DE5DE0"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\GUI_DEVELOPMENT_NOTES.md",
+    "Hash": "99715CFEB1F799CB2D0342F74670F489B05F8AB902541E59763E7A165CD09160"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\INTELLECTUAL_PROPERTY.md",
+    "Hash": "4C177129D19AB5C1EFFA0D6ECB572607DA5750BC5573AA280514D7A436CB671B"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\README.md",
+    "Hash": "5547D12B4B04E25C104A5ACB781D88309CB0920939C738D11910F448FFFE49A9"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\security_gui.py",
+    "Hash": "8CB06BFD4838A487ACE6AE0B06B7C9516405C6CA88839F1A488FFEE7856B0AD6"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\cloud_handler.py",
+    "Hash": "148C224FC83A5FE28BA922B5510F11109A81465214E228A66963C8A22EFCCFF3"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\config.py",
+    "Hash": "1F04985AA2B63B4CE37F7BAF4BD795B464AFE1F549D1EC5A8A27534FD30C8410"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\license_manager.py",
+    "Hash": "738EF050D76DCB0AB40FB33F05A16DC971574C130F81C45C8A54A9BE9699CF6D"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\process_handler.py",
+    "Hash": "A058FE28D96B696B9BB01A83419092DD561C219C953F77C663E1B4742F7FD97F"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\system_monitor.py",
+    "Hash": "1A4FB0480D82FB319F023349E8D3124351F5C8FA2695BFCDC0848EE1DF21EDF9"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\backend\\toolkit_handler.py",
+    "Hash": "86324063411E82A0829EC1374EA6E1D1F640CADADD48A88B8B73895FB7C2EBBF"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\application_events.evtx",
+    "Hash": "3FB981FD893A6F66E82E9964581ACF080842A7852E7033CEC80B5BDBA294CC20"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\application_events.txt",
+    "Hash": "100F46796FDC666855E6B3539BF2D65FAA14F3F4790E0925D3B2C5542E79A8C0"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\auditoria_sesion_2025-07-21.md",
+    "Hash": "EE8AC8CA27E993FDFDD4EDDD02CA7D82A30B076F8FEA66945394A0D86F6EBEC5"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\autoruns_scan.csv",
+    "Hash": "7AD40B860BD42753E9D6197884CA1500C42F092A0DBB872E9CC0350FBF5E30F9"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\backup_event_logs.ps1",
+    "Hash": "92B1F168E581C3B19E327CE0465B67F5134BF7FE9866F8D611B3B697B33E9B72"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\calculate_www_hashes.ps1",
+    "Hash": "95C10FD1CF1031D36BDD31D4D5A7B944E4234154AD53F2365D676665722390EA"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\check_pygetwindow.py",
+    "Hash": "8E1374937F35C980E164D5C647B69F45F5E74C4E3DFEAB57BA444DBF3192775C"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\ciberseguridad_log.md",
+    "Hash": "D0D09F83209455AF575D63097FD9702B53085D5DA28922E6EC86C49309DC6EC7"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\create_restore_point.ps1",
+    "Hash": "C1F2134D9347B8BB10D2D387376DBF31C2420CBAC1C18629B95A676A3694D740"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\explorer_window_log.txt",
+    "Hash": "47DC30FBA93DD75C7D9DD18560C59B0649FD37F841B2002F95FBC39C940B82BE"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\GEMINI_SECURITY_OVERVIEW.md",
+    "Hash": "ECEACE401CC66262BFC50881AD207B8452495E13EE9C06CEAFD0B833C3090131"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\list_users_privileges.ps1",
+    "Hash": "01C63F61604E1795490AFC4CE373C88956AADF0E718DF97A36B0A8A837DFFDEF"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\monitor_crowdsec.ps1",
+    "Hash": "B03F21AB587CE2342CD9937833AC20C21097A1735318B72E2B2E20FFB2B7D0CA"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\monitor_defender_antivirus.ps1",
+    "Hash": "21F0189F63CDB60F3D5151C086DAB1135EA6B864063EC3A1835DC345380F9435"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\monitor_defender_firewall.ps1",
+    "Hash": "AF020806F815AE64F3B5068055FCC13AC29A7DDB4B9A67B4559B8553D14C5661"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\monitor_explorer_windows.ps1",
+    "Hash": "6DDB755B22FCBFA416218DE6299C6967AB1ECFE73FF854BA9BDBF655F6B8E95A"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\monitor_explorer_windows.py",
+    "Hash": "074C1E432326A6E6BECDFFB2AF4EF11FFE771FF5BF97807D808D74A2CBC21F13"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\monitor_warp.ps1",
+    "Hash": "889D1DDDD0F16EFAE643A47E8BEBF3C5F454C8C0A790B294494A86A4080EA523"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\port_security_log.txt",
+    "Hash": "643524836156FE1BF6D1C2D4690F6C0698BA1E0D5C422EF4D204238A64E28B34"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\scan_ports.ps1",
+    "Hash": "9DBCB628C1F9D66122C819FA21A14BF07F7F05938CF7B8CC667096656E9CF8E8"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\start_security_monitors.ps1",
+    "Hash": "261EBA7CC748C44FF296FDD78C185937714748307B6387952CB0EA0ABAFF1944"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\system_events.evtx",
+    "Hash": "25AD48C51FB68B3D513D0832F606F49F643134311CD3C487D383C34E7CA7031A"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\system_events.txt",
+    "Hash": "176333F928499A3EDE0EBEB66B625A699332798D80B58B844AB7D764D8BBB65D"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\test_echo_log.txt",
+    "Hash": "057C3F525160D3C7B0B93CCF8B89618A67C9E7FC5B114AE502809282FE19158C"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\user_privileges_log.txt",
+    "Hash": "6F51D72DF59D49BD6F794C63360304AB9613CB1B96A50CC02AC5103573663EC6"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\verify_www_integrity.ps1",
+    "Hash": "00E65A6D1F9B2E46E9EB775173D8D7666A9C6EB257BEDAE5C89090F2D83441B3"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\ciberseguridad\\forensic_tools\\README.txt",
+    "Hash": "9B4F30D99E01B0A7F36B4F25A27B8C160E2670AF0C5E45B01F2507C47649A205"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\main_window.py",
+    "Hash": "0857296842A6683415BADBB558B62212098439B9228ED07DF12515F8C186BC13"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\views\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\views\\admin_view.py",
+    "Hash": "3115E37546414DB675292C787608ADCA858C6DEC2BC68802D121BBF0CBADA14F"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\views\\dashboard_view.py",
+    "Hash": "F313DA8E61886355F7C97D027D4C3AC0DC8BC52B276417FCD493C12B0B2A9A81"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\views\\integrity_view.py",
+    "Hash": "7EEB4D353075C4BCB365A124BBE688751569AAEBD6BD73B24732C4EE6095358D"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\views\\logs_view.py",
+    "Hash": "00A5A0A1BA259A20FE63846705EA7C4362A6E85688A3380584BC78A45AB0ACBD"
+  },
+  {
+    "Path": "C:\\www\\gemini-security-monitor\\gui\\views\\toolkit_view.py",
+    "Hash": "6A22AA9BAF0BD9B82D748677F4F4E6435EB1FA7E2C2BF768E9AA136C40FBB37D"
+  }
+]

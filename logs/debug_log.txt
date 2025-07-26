@@ -1,0 +1,291 @@
+--- DEBUG LOG ---
+Timestamp: 2025-07-23 14:33:29
+Salida completa de start_security_monitors.ps1:
+El servicio 'CloudflareWarp' ya está en ejecución.
+El servicio 'WinDefend' ya está en ejecución.
+El servicio 'MpsSvc' ya está en ejecución.
+El servicio 'croudsec' no se encontró en el sistema.
+Iniciando escaneo de Windows Defender en C:\www...
+Scan starting...
+Scan finished.
+Scanning C:\www\gemini-security-monitor found no threats.
+Escaneo de Windows Defender completado.
+Iniciando escaneo y análisis de puertos...
+Escaneo de puertos completado. Resultados en C:\www\gemini-security-monitor\ciberseguridad\port_security_log.txt
+Escaneo y análisis de puertos completado.
+Iniciando verificación de integridad del directorio C:\www\gemini-security-monitor...
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\.gitignore: El término 'Get-FileHash' no 
+se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\GIT_PROTOCOL.md: El término 'Get-FileHash'
+ no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\GUI_DEVELOPMENT_NOTES.md: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\INTELLECTUAL_PROPERTY.md: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\README.md: El término 'Get-FileHash' no se
+ reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\security_gui.py: El término 'Get-FileHash'
+ no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\cloud_handler.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\config.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\license_manager.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\process_handler.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\system_monitor.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\toolkit_handler.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\backend\__init__.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\backend\__pycache__\config.cpython-313.pyc: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\backend\__pycache__\license_manager.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\backend\__pycache__\process_handler.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\backend\__pycache__\system_monitor.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\backend\__pycache__\toolkit_handler.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\backend\__pycache__\__init__.cpython-313.pyc: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\application_events.evtx: El
+ término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\application_events.txt: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\auditoria_sesion_2025-07-21.md: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\autoruns_scan.csv: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\backup_event_logs.ps1: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\calculate_www_hashes.ps1: 
+El término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\check_pygetwindow.py: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\ciberseguridad_log.md: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\create_restore_point.ps1: 
+El término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\explorer_window_log.txt: El
+ término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\GEMINI_SECURITY_OVERVIEW.md: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\integrity_check_log.txt: El
+ término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\list_users_privileges.ps1: 
+El término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\monitor_crowdsec.ps1: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\monitor_defender_antivirus.ps1: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\monitor_defender_firewall.ps1: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\monitor_explorer_windows.ps1: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\monitor_explorer_windows.py: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\monitor_warp.ps1: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\port_security_log.txt: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\scan_ports.ps1: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\service_monitor_log.txt: El
+ término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\ciberseguridad\start_security_monitors.ps1: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\system_events.evtx: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\system_events.txt: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\system_restore_log.txt: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\test_echo_log.txt: El 
+término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\test_write.txt: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\user_privileges_log.txt: El
+ término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\verify_www_integrity.ps1: 
+El término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\www_hashes.json: El término
+ 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si
+ escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de
+ nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\ciberseguridad\forensic_tools\README.txt: 
+El término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\main_window.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\__init__.py: El término 'Get-FileHash'
+ no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\views\admin_view.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\views\dashboard_view.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\views\integrity_view.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\views\logs_view.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\views\toolkit_view.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\views\__init__.py: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\views\__pycache__\admin_view.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\views\__pycache__\dashboard_view.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\views\__pycache__\integrity_view.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\views\__pycache__\logs_view.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\views\__pycache__\toolkit_view.cpython-313.pyc: El término 'Get-FileHash' no se 
+reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\views\__pycache__\__init__.cpython-313.pyc: El término 'Get-FileHash' no se reconoce
+ como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para 
+C:\www\gemini-security-monitor\gui\__pycache__\main_window.cpython-313.pyc: El término 'Get-FileHash' no se reconoce 
+como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el 
+nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\gui\__pycache__\__init__.cpython-313.pyc: 
+El término 'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+ADVERTENCIA: No se pudo calcular el hash para C:\www\gemini-security-monitor\logs\test_execution.txt: El término 
+'Get-FileHash' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si 
+escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de 
+nuevo.
+2025-07-23 14:33:25 - Verificación de integridad completada: No se detectaron cambios en C:\www\gemini-security-monitor.
+Verificación de integridad completada.
+Iniciando listado de usuarios y privilegios...
+Listado de usuarios y privilegios completado.
+
+Líneas de log de servicio extraídas:
+["El servicio 'CloudflareWarp' ya está en ejecución.", "El servicio 'WinDefend' ya está en ejecución.", "El servicio 'MpsSvc' ya está en ejecución.", "El servicio 'croudsec' no se encontró en el sistema."]
+--- FIN DEBUG LOG ---

@@ -1,0 +1,4 @@
+
+--- Creación de Punto de Restauración - 2025-07-23 09:02:09 ---
+
+ERROR durante la creación del punto de restauración: No se encuentra ningún parámetro que coincida con el nombre del parámetro 'Drive'.

@@ -1,0 +1,5686 @@
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:22:24 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:28:17 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:42:40 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:48:17 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:51:14 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:52:20 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:53:04 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 11:56:24 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-22 12:17:47 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 17:51:58 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 17:59:25 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 07:20:38 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 07:24:10 ---
+
+--- Usuarios Locales ---
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de Windows Defender.
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+Grupo: Invitados
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+Grupo: Usuarios
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\Program Files
+
+AccessToString : CREATOR OWNER Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  268435456
+                 NT AUTHORITY\SYSTEM Allow  Modify, Synchronize
+                 BUILTIN\Administradores Allow  268435456
+                 BUILTIN\Administradores Allow  Modify, Synchronize
+                 BUILTIN\Usuarios Allow  -1610612736
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT SERVICE\TrustedInstaller Allow  268435456
+                 NT SERVICE\TrustedInstaller Allow  FullControl
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\ALL APPLICATION PACKAGES Allow  -1610612736
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  ReadAndExecute, Synchronize
+                 APPLICATION PACKAGE AUTHORITY\TODOS LOS PAQUETES DE APLICACIÓN RESTRINGIDOS Allow  -1610612736
+
+
+
+Directorio: C:\www\gemini-security-monitor
+
+AccessToString : BUILTIN\Administradores Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Usuarios Allow  ReadAndExecute, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  Modify, Synchronize
+                 NT AUTHORITY\Authenticated Users Allow  -536805376
+
+
+
+Listado de usuarios y privilegios completado exitosamente.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 08:56:49 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 08:57:11 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 09:03:32 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 09:16:11 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 09:27:25 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 09:53:22 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:10:37 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:23:10 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:31:32 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:35:47 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:39:18 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:43:34 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 12:49:42 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:04:29 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:16:03 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:22:55 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:31:55 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:40:19 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:45:59 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 13:58:14 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 14:06:01 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 14:14:34 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.
+
+--- Listado de Usuarios y Privilegios - 2025-07-23 14:33:26 ---
+
+--- Usuarios Locales ---
+
+
+Name        : Administrador
+Enabled     : False
+Description : Cuenta integrada para la administración del equipo o dominio
+
+Name        : DefaultAccount
+Enabled     : False
+Description : Cuenta de usuario administrada por el sistema.
+
+Name        : fuentestudent
+Enabled     : True
+Description : 
+
+Name        : Invitado
+Enabled     : False
+Description : Cuenta integrada para el acceso como invitado al equipo o dominio
+
+Name        : UpdatusUser
+Enabled     : True
+Description : Se utiliza para proporcionar actualizaciones del software de NVIDIA
+
+Name        : WDAGUtilityAccount
+Enabled     : False
+Description : Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de aplicaciones de 
+              Windows Defender.
+
+
+
+
+
+--- Grupos Locales y Miembros ---
+
+Grupo: docker-users
+
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores
+
+
+Name            : PROFESIONAL\Administrador
+PrincipalSource : Local
+
+Name            : PROFESIONAL\fuentestudent
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Administradores de Hyper-V
+
+
+Grupo: Duplicadores
+
+
+Grupo: IIS_IUSRS
+
+
+Name            : NT AUTHORITY\IUSR
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Invitados
+
+
+Name            : PROFESIONAL\Invitado
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Lectores del registro de eventos
+
+
+Grupo: Operadores criptográficos
+
+
+Grupo: Operadores de asistencia de control de acceso
+
+
+Grupo: Operadores de configuración de red
+
+
+Grupo: Operadores de copia de seguridad
+
+
+Grupo: Propietarios del dispositivo
+
+
+Grupo: System Managed Accounts Group
+
+
+Name            : PROFESIONAL\DefaultAccount
+PrincipalSource : Local
+
+
+
+
+
+Grupo: Usuarios
+
+
+Name            : NT AUTHORITY\Authenticated Users
+PrincipalSource : Unknown
+
+Name            : NT AUTHORITY\INTERACTIVE
+PrincipalSource : Unknown
+
+
+
+
+
+Grupo: Usuarios avanzados
+
+
+Grupo: Usuarios COM distribuidos
+
+
+Grupo: Usuarios de administración remota
+
+
+Grupo: Usuarios de escritorio remoto
+
+
+Grupo: Usuarios del monitor de sistema
+
+
+Grupo: Usuarios del registro de rendimiento
+
+
+--- Permisos NTFS para Directorios Clave ---
+
+Directorio: C:\Windows
+
+ERROR durante el listado de usuarios y privilegios: El comando 'Get-Acl' se encontró en el módulo 'Microsoft.PowerShell.Security', pero el módulo no pudo cargarse. Para obtener más información, ejecute 'Import-Module Microsoft.PowerShell.Security'.

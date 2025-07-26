@@ -1,0 +1,1 @@
+system_monitor.run_full_monitoring() se ha ejecutado.

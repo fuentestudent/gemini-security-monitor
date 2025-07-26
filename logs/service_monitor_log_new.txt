@@ -1,0 +1,4 @@
+2025-07-23 14:33:29 - El servicio 'CloudflareWarp' ya está en ejecución.
+2025-07-23 14:33:29 - El servicio 'WinDefend' ya está en ejecución.
+2025-07-23 14:33:29 - El servicio 'MpsSvc' ya está en ejecución.
+2025-07-23 14:33:29 - El servicio 'croudsec' no se encontró en el sistema.
