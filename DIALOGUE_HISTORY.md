@@ -55,3 +55,17 @@ Esta sección documenta los problemas de sincronización con repositorios remoto
 **Conclusión General:**
 
 Ante problemas persistentes de sincronización que no se resuelven con comandos estándar, la estrategia más fiable (siendo los únicos colaboradores) es la recreación del repositorio remoto, precedida por un reinicio del sistema para descartar problemas de conectividad a nivel de sistema operativo.
+
+### 29 de julio de 2025 - Fase 5: Depuración y Validación del Backend con Tests
+
+- **Objetivo:** Validar la robustez del backend mediante la ejecución de un conjunto de pruebas unitarias y de integración.
+- **Problema 1: Fallo de Conexión a BD de Pruebas.**
+    - **Síntoma:** Los tests fallaban con errores de sintaxis de la URI de MongoDB al intentar pasarla como variable de entorno en PowerShell.
+    - **Solución:** Se implementó la dependencia `cross-env` para gestionar las variables de entorno de forma agnóstica al sistema operativo, directamente en el script `test` del `package.json`.
+- **Problema 2: Fallo de Tests de Integración por `JWT_SECRET` ausente.**
+    - **Síntoma:** Tras solucionar el problema de la BD, los tests de autenticación fallaban con el error `secretOrPrivateKey must have a value`.
+    - **Solución:** Se añadió la variable de entorno `JWT_SECRET` al script de `test` en `package.json` usando `cross-env`.
+- **Problema 3: Fallos esporádicos en tests por estado de la BD.**
+    - **Síntoma:** Algunos tests fallaban porque dependían de un estado limpio de la base de datos que no se garantizaba entre ejecuciones.
+    - **Solución:** Se implementó un middleware de manejo de errores (`errorMiddleware.js`) más robusto y específico en `server.js` para capturar errores de la aplicación y devolver los códigos de estado HTTP correctos, asegurando que los tests reciban las respuestas esperadas incluso en casos de error.
+- **Estado Actual:** Todos los tests (unitarios y de integración) pasan con éxito. El backend se considera validado y robusto. Se establece el protocolo **ABC (Actualizar, Bloquear, Cargar)** como procedimiento estándar para finalizar cada fase.
