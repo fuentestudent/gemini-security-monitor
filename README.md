@@ -2,7 +2,7 @@
 
 ## Descripción General
 
-**gemini-security-monitor** es un proyecto integral de monitoreo y análisis de seguridad diseñado para sistemas Windows 11. Su objetivo principal es proporcionar una supervisión robusta y organizada de los componentes de seguridad del sistema, identificar comportamientos anómalos y asistir en la detección y prevención de posibles amenazas. Este proyecto se enfoca en la ciberseguridad ofensiva, defensiva y forense, con un énfasis particular en la detección y prevención de incidentes mientras el equipo está conectado a internet.
+**Gemini-Security-Monitor** es un proyecto integral de monitoreo y análisis de seguridad diseñado para sistemas Windows 11. Su objetivo principal es proporcionar una supervisión robusta y organizada de los componentes de seguridad del sistema, identificar comportamientos anómalos y asistir en la detección y prevención de posibles amenazas. Este proyecto se enfoca en la ciberseguridad ofensiva, defensiva y forense, con un énfasis particular en la detección y prevención de incidentes mientras el equipo está conectado a internet.
 
 ## Colaboración Técnica y Roles
 
