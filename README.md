@@ -26,3 +26,8 @@ Actualmente, el proyecto se encuentra en fase de desarrollo activo. Hemos establ
 ## Contacto
 
 Para cualquier consulta o sugerencia, no dudes en ponerte en contacto.
+
+*   **Jhonny José Carbó Fuentes:** [fuentestudent@hotmail.com](mailto:fuentestudent@hotmail.com).
+
+---
+*Este README fue generado y es mantenido con la asistencia de Jhonny J. Carbó Fuentes y Gemini.*
